@@ -1,5 +1,5 @@
 /*
-he set {−1, 1}, we define val(A, S) as follows:
+For a given array A of N integers and a sequence S of N integers from the set {−1, 1}, we define val(A, S) as follows:
 val(A, S) = |sum{ A[i]*S[i] for i = 0..N−1 }|
 (Assume that the sum of zero elements equals zero.)
 For a given array A, we are looking for such a sequence S that minimizes val(A,S).
