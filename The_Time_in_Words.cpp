@@ -76,7 +76,7 @@ int main()
     }
     else if (minutes > 30 && minutes < 40)
     {
-        cout<<"twenty "<<intstrmap[60 - minutes - 20]<<"minutes to "<<intstrmap[hour+1];
+        cout<<"twenty "<<intstrmap[60 - minutes - 20]<<" minutes to "<<intstrmap[hour+1];
     }
 
     return 0;
